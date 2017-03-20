@@ -1,0 +1,12 @@
+Server=10.80.7.226
+ServerActive=10.80.7.226
+Hostname=LPW7-5CG6326WFW
+ListenPort=10050
+EnableRemoteCommands=1
+LogRemoteCommands=1
+UnsafeUserParameters=1
+HostMetadata=env=ads, app=SearchService
+UserParameter=confluenceurl, echo 'http://confluence.epnet.com/display/live/SearchService'
+Include=c:\zabbix\scripts\*.conf
+ListenPort=10051
+LogFile=C:/Program Files/zabbix/zabbix.log
