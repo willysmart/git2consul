@@ -1,0 +1,5 @@
+---
+- hosts: all
+- theYml:
+    - name: theYml
+    - service: theYml Service
